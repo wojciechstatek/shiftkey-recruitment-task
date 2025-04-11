@@ -1,0 +1,17 @@
+{
+  "name": "shiftkey",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "test-ia": "npx cypress open --e2e --browser electron"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "cypress": "^14.3.0"
+  }
+}
